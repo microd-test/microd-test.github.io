@@ -21,7 +21,14 @@
   <body>
     <!-- <model-viewer ar alt="A 3D model of the AICO model." src="./AICO/AICO_GLTF_TEST.gltf"></model-viewer> -->
     <!--<model-viewer alt="A 3D model of the AICO model."ios-src="./AICO/AICO_OBJ_USDZ.usdz">-->
-      <model-viewer alt="A 3D model of the AICO model." src="./AICO/AICO_OBJ_USDZ.usdz" camera-controls ar unstable-webxr ios-src="./AICO/AICO_OBJ_USDZ.usdz">
-
+      <!-- <model-viewer alt="A 3D model of the AICO model." src="./AICO/AICO_OBJ_USDZ.usdz" camera-controls ar unstable-webxr ios-src="./AICO/AICO_OBJ_USDZ.usdz"> -->
+        <model-viewer 
+            camera-controls 
+            reveal="interaction"
+            alt="A 3D model of the AICO model"
+            poster="./images/aico_thumb.png" 
+            src="./astronaut/scene.gltf" 
+            ios-src="./AICO/AICO_OBJ_USDZ.usdz">
+      </model-viewer>
   </body>
 </html>
