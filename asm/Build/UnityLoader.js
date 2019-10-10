@@ -711,9 +711,8 @@ var UnityLoader = UnityLoader || {
       break;
     }
     return {
-      devicePixelRatio: window.hbxDpr,
-      width: screen.width ? screen.width * this.devicePixelRatio : 0,
-      height: screen.height ? screen.height * this.devicePixelRatio : 0,
+      width: screen.width ? screen.width : 0,
+      height: screen.height ? screen.height : 0,
       browser: browser,
       browserVersion: version,
       mobile: mobile,
@@ -769,9 +768,6 @@ var UnityLoader = UnityLoader || {
 
   })(),
   compatibilityCheck: function (gameInstance, onsuccess, onerror) {
-    var dprs = UnityLoader.SystemInfo.mobile ? 1 : 1;
-    window.devicePixelRatio = window.devicePixelRatio || 1;
-    window.hbxDpr = window.devicePixelRatio * dprs;
     if (!UnityLoader.SystemInfo.hasWebGL) {
       gameInstance.popup("Your browser does not support WebGL",
         [{text: "OK", callback: onerror}]);
