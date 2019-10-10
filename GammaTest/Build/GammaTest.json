@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "3DProject_Camera",
+"dataUrl": "GammaTest.data.unityweb",
+"wasmCodeUrl": "GammaTest.wasm.code.unityweb",
+"wasmFrameworkUrl": "GammaTest.wasm.framework.unityweb",
+"TOTAL_MEMORY": 16777216,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
