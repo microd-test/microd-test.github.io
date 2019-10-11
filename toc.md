@@ -15,6 +15,8 @@
 - Build_005 - standard materials with swatches, custom lighting, only floor, white clear color
     - ~~color is still dark~~
 - Build_006 - graphics quality changed to standard ultra settings
+    - MSAA levels have no effect in WebGL 1
+- Build_007 - disabled Allow HDR on the camera
 
 ### Notes
 - Builds 3 - 5
