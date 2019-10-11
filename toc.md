@@ -17,6 +17,8 @@
 - Build_006 - graphics quality changed to standard ultra settings
     - MSAA levels have no effect in WebGL 1
 - Build_007 - disabled Allow HDR on the camera
+    - MSAA is a little bit better
+- Build_008 - MicroD shaders adjusted to match linear, skybox, custom lighting
 
 ### Notes
 - Builds 3 - 5
