@@ -5,3 +5,5 @@ Gamma and GammTest - built using different wasm properties but wasm is unsupport
 
 10/11
 Build_001 - standard materials, default setup
+Build_002 - standard materials with swatches, default setup
+Build_003 - standard materials with swatches, custom lighting
