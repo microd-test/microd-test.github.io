@@ -18,7 +18,8 @@
     - MSAA levels have no effect in WebGL 1
 - Build_007 - disabled Allow HDR on the camera
     - MSAA is a little bit better
-- Build_008 - MicroD shaders adjusted to match linear, skybox, custom lighting
+- Build_008a - MicroD shaders adjusted to match linear, skybox, custom lighting
+- Build_009 - added room back in
 
 ### Notes
 - Builds 3 - 5
