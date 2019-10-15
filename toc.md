@@ -31,4 +31,4 @@
 - Build_010 - testing a touch screen camera script
     - Needs a bunch of modifications to rotate around the model 
 - Build_011 - different camera script
-    - Too fast and no clamp on rotation
+    - Too fast and no clamp on rotationgit
