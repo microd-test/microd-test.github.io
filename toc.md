@@ -20,8 +20,13 @@
     - MSAA is a little bit better
 - Build_008a - MicroD shaders adjusted to match linear, skybox, custom lighting
 - Build_009 - added room back in
+    - Lighting and model look fine
 
 ### Notes
 - Builds 3 - 5
     - Swatch color stayed the same, contrast between white background and swatch made it look slightly darker
     - AA is still a big issue 
+
+## 10/15
+- Build_010 - testing a touch screen camera script
+    - Needs a bunch of modifications to rotate around the model 
